@@ -1,0 +1,10 @@
+{
+  "name": "job-scanner",
+  "version": "0.1.0",
+  "description": "A personal job search engine: scans job boards twice a day, scores new postings against your resume, finds the hiring manager's verified email, and drafts outreach in Gmail. Never sends or applies on its own.",
+  "author": {
+    "name": "Ahmad Al-Smadi"
+  },
+  "license": "MIT",
+  "keywords": ["jobs", "job-search", "outreach", "apollo", "gmail", "career"]
+}

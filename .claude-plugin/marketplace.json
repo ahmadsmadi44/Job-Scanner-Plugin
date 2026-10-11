@@ -1,0 +1,15 @@
+{
+  "name": "job-scanner",
+  "description": "Job Scanner: a personal job search engine for Claude that scans, scores and drafts outreach.",
+  "owner": {
+    "name": "Ahmad Al-Smadi"
+  },
+  "plugins": [
+    {
+      "name": "job-scanner",
+      "source": "./plugins/job-scanner",
+      "description": "Scans job boards, scores postings against your resume, and drafts hiring-manager outreach in Gmail.",
+      "version": "0.1.0"
+    }
+  ]
+}

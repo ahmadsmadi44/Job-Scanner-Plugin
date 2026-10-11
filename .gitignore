@@ -1,0 +1,8 @@
+# Never commit personal settings or run data
+config.json
+seen_keys.json
+out.json
+*.local.json
+.env
+__pycache__/
+.DS_Store

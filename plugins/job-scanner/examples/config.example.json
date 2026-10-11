@@ -1,0 +1,99 @@
+{
+  "version": 1,
+  "owner_first_name": "Jordan",
+  "timezone": "America/New_York",
+  "schedule": {
+    "scan_times": ["07:00", "17:00"],
+    "weekdays_only": true,
+    "worker_minute": 20
+  },
+  "profile": "Jordan Lee. B.Sc. Business Analytics, State University (May 2026). 1 year data/ops internship at a mid-size logistics company: built weekly KPI dashboards (Power BI), automated a reporting workflow with Python and SQL. Comfortable with Excel, SQL, Python, Tableau, HubSpot. Based in New York, open to remote US.",
+  "locations": {
+    "countries": ["United States"],
+    "include_remote": true,
+    "notes": "Prefer NYC metro or remote. Open to relocating for the right role."
+  },
+  "work_authorization": {
+    "summary": "US citizen. No sponsorship needed.",
+    "hard_no": [],
+    "risky": []
+  },
+  "experience": {
+    "max_years": 2,
+    "stretch_years": 3,
+    "graduation": "2026-05",
+    "skip_full_time_for_grad_year": ["2027", "2028"]
+  },
+  "tracks": {
+    "Data/Analytics": "Data Analyst, Business Analyst, BI Analyst, Analytics Associate, Reporting Analyst",
+    "Operations": "Operations Analyst, Business Operations Associate, Strategy & Ops, Process Improvement Analyst",
+    "RevOps": "Revenue Operations Analyst, Sales/Marketing Operations, CRM Analyst"
+  },
+  "priority_track": "Data/Analytics",
+  "exclude_title_keywords": ["Senior", "Staff", "Principal", "Lead", "Manager", "Director", "Head of", "VP"],
+  "exclude_role_types": ["quota-carrying sales (AE/SDR/BDR)", "legal", "HR/recruiting", "hardware", "clinical/nursing", "retail"],
+  "exclude_companies": [
+    {"company": "Example Corp", "reason": "applied recently, in cooldown"}
+  ],
+  "internships": {
+    "include": false,
+    "terms": [],
+    "ignore_enrollment_requirements": false,
+    "ask_about_enrollment_in_email": false,
+    "generous_track_fit": true
+  },
+  "queries": ["data analyst", "business analyst", "operations analyst", "revenue operations", "analytics"],
+  "intern_queries": [],
+  "watchlist": [
+    ["greenhouse", "airbnb"],
+    ["ashby", "ramp"],
+    ["lever", "palantir"],
+    ["smartrecruiters", "ServiceNow"]
+  ],
+  "sources": {
+    "company_boards": true,
+    "simplify_newgrad": true,
+    "simplify_internships": false,
+    "simplify_site": false,
+    "handshake": false,
+    "wellfound": false
+  },
+  "resume": {
+    "source": "google_doc",
+    "doc_id": "PASTE-YOUR-GOOGLE-DOC-ID"
+  },
+  "thresholds": {
+    "dashboard_min_score": 4.0,
+    "outreach_min_score": 4.5,
+    "drafts_per_run": 12
+  },
+  "outreach": {
+    "enabled": true,
+    "email_finder": "apollo_chrome",
+    "apollo_daily_reveals": 10,
+    "contact_order": ["hiring manager", "recruiter", "teammate"],
+    "voice": {
+      "greeting": "Hey <First>!",
+      "length_words": 120,
+      "opener_rotation": true,
+      "tone": "Casual and a little playful for startups and founders; warmer and more polished for recruiters and managers at large companies.",
+      "bring_header": "What I'd bring:",
+      "achievements": [
+        "Built weekly KPI dashboards in Power BI used by the ops leadership team",
+        "Automated a 3-hour weekly report down to 15 minutes with Python and SQL",
+        "Can start right away"
+      ],
+      "ask": "a quick 10 minute chat, or passing my name along to the right person",
+      "closing": "If not, no worries!",
+      "signature_name": "Jordan Lee",
+      "links": [
+        {"text": "Portfolio", "url": "https://example.com/portfolio"},
+        {"text": "LinkedIn", "url": "https://www.linkedin.com/in/example"}
+      ],
+      "never": ["em dashes", "raw URLs", "I know you're busy", "opening with a quote from the posting"]
+    }
+  },
+  "tracker": {
+    "enabled": true
+  }
+}
