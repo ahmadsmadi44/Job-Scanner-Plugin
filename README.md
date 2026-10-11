@@ -27,7 +27,7 @@ Everything shows up on your own private dashboard: today's emails to send, new m
 In Claude Code or Cowork:
 
 ```
-/plugin marketplace add YOUR-GITHUB-USERNAME/job-scanner
+/plugin marketplace add ahmadsmadi44/job-scanner-plugin
 /plugin install job-scanner@job-scanner
 ```
 
